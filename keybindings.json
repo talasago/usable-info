@@ -1,0 +1,147 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+    {
+        "key": "cmd+o",
+        "command": "list.select",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-list.select",
+        "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "actions.findWithSelection"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-actions.findWithSelection"
+    },
+    {
+      "key": "shift+alt+down",
+      "command": "cursorColumnSelectDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+cmd+down",
+      "command": "-cursorColumnSelectDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+left",
+      "command": "cursorColumnSelectLeft",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+cmd+left",
+      "command": "-cursorColumnSelectLeft",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+enter",
+      "command": "cursorColumnSelectPageDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+cmd+pagedown",
+      "command": "-cursorColumnSelectPageDown",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+right",
+      "command": "cursorColumnSelectRight",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+cmd+right",
+      "command": "-cursorColumnSelectRight",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+pageup",
+      "command": "cursorColumnSelectPageUp",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+cmd+pageup",
+      "command": "-cursorColumnSelectPageUp",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+cmd+right",
+      "command": "workbench.action.nextEditor"
+    },
+    {
+      "key": "shift+cmd+]",
+      "command": "-workbench.action.nextEditor"
+    },
+    {
+      "key": "shift+cmd+left",
+      "command": "workbench.action.previousEditor"
+    },
+    {
+      "key": "alt+cmd+left",
+      "command": "-workbench.action.previousEditor"
+    },
+    {
+      "key": "ctrl+shift+alt+tab",
+      "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+    },
+    {
+      "key": "ctrl+shift+tab",
+      "command": "-workbench.action.openPreviousRecentlyUsedEditorInGroup"
+    },
+    {
+      "key": "enter ctrl+shift+alt+tab",
+      "command": "workbench.action.quickOpenNavigatePreviousInEditorPicker",
+      "when": "inEditorsPicker && inQuickOpen"
+    },
+    {
+      "key": "ctrl+shift+tab",
+      "command": "-workbench.action.quickOpenNavigatePreviousInEditorPicker",
+      "when": "inEditorsPicker && inQuickOpen"
+    },
+    {
+      "key": "shift+cmd+[",
+      "command": "-workbench.action.previousEditor"
+    },
+    {
+      "key": "ctrl+cmd+",
+      "command": "workbench.action.quickOpenNavigateNextInEditorPicker",
+      "when": "inEditorsPicker && inQuickOpen"
+    },
+    {
+      "key": "ctrl+tab",
+      "command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
+      "when": "inEditorsPicker && inQuickOpen"
+    },
+    {
+      "key": "ctrl+shift+alt+up",
+      "command": "editor.action.copyLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+alt+up",
+      "command": "-editor.action.copyLinesUpAction",
+      "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+      "key": "shift+alt+up",
+      "command": "cursorColumnSelectUp",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "shift+alt+cmd+up",
+      "command": "-cursorColumnSelectUp",
+      "when": "textInputFocus"
+    }
+]
