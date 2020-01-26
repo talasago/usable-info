@@ -1,21 +1,27 @@
 alias egrep='egrep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
-alias grep='grep --color=auto'
+alias tma='tmux a -t'
+alias tmn='tmux new -s'
+alias tm='tmux'
 
 alias vi='vim'
+alias ..='cd ..'
+alias  h='history'
+
+export PS1="[\u@\h \w]\$ "
 
 # macの場合
 if [ "$(uname)" = "Darwin" ]; then
   alias l.='ls -dG .*'
   alias ll='ls -lG'
+  alias ls='ls -G'
   alias ld='ls -ldG */'
+  alias sed='gsed'
 else
   alias l.='ls -d .* --color=auto'
   alias ll='ls -l --color=auto'
   alias ls='ls --color=auto'
   export VIMINIT="let \$MYVIMRC='$SSHHOME/.sshrc.d/.vimrc' | source \$MYVIMRC"
 fi
-
-
 
