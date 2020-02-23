@@ -35,7 +35,7 @@ alias glogn='git log --name-status --oneline'
 alias gfirstcom='git commit --allow-empty -m \"Initial commit\"'
 alias gpl='git pull'
 alias gps='git push'
-alias gad ='git add'
+alias gad='git add'
 
 # macの場合
 if [ "$(uname)" = "Darwin" ]; then
