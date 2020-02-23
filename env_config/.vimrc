@@ -27,6 +27,9 @@ set virtualedit=onemore
 
 " インデントはスマートインデント
 set smartindent
+set tabstop=2
+set expandtab
+set shiftwidth=2
 
 " 括弧入力時の対応する括弧を表示
 set showmatch
@@ -42,6 +45,7 @@ nnoremap j gj
 nnoremap k gk
 " シンタックスハイライトの有効化
 syntax enable
+colorscheme elflord
 
 " diff比較の際にスペースを無視する
 set diffopt=iwhite
